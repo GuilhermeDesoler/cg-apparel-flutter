@@ -1,0 +1,23 @@
+{
+    "id": "123456",
+    "user": {
+        "id": "12345",
+        "name": "Guilherme Lima Desoler",
+        "email": "guilherme.desoler@gmail.com"
+    },
+    "products": [{
+        "id": "12345",
+        "name": "Guilherme Lima Desoler",
+        "description": "teste",
+        "price": 17.50,
+        "imageUrl": "url"
+    },{
+        "id": "12345",
+        "name": "Guilherme Lima Desoler",
+        "description": "teste",
+        "price": 17.50,
+        "imageUrl": "url"
+    }],
+    "totalAmount": 35.00,
+    "dateTime": "2023-06-24T00:00:00.000"
+}

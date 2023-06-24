@@ -1,0 +1,15 @@
+{
+ "products": [{
+    "id": "12345",
+    "name": "Guilherme Lima Desoler",
+    "description": "teste",
+    "price": 17.50,
+    "imageUrl": "url"
+},{
+    "id": "12345",
+    "name": "Guilherme Lima Desoler",
+    "description": "teste",
+    "price": 17.50,
+    "imageUrl": "url"
+}]   
+}

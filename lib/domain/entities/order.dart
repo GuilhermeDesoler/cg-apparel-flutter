@@ -19,4 +19,14 @@ class Order extends Equatable {
 
   @override
   List<Object?> get props => [id, user, products, totalAmount, dateTime];
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'user': user.toJson(),
+      'products': products.map((e) => e.toJson()).toList(),
+      'totalAmount': totalAmount,
+      'dateTime': dateTime.toIso8601String(),
+    };
+  }
 }

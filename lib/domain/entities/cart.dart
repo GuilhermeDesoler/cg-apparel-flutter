@@ -10,4 +10,10 @@ class Cart extends Equatable {
 
   @override
   List<Object?> get props => [products];
+
+  Map<String, dynamic> toJson() {
+    return {
+      'products': products.map((e) => e.toJson()).toList(),
+    };
+  }
 }
